@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://gab.com"
 license=('GPL')
 depends=('jade-application-kit-git')
-source=("https://github.com/realKennyStrawn93/triggerbox-gab")
+source=("git+https://github.com/realKennyStrawn93/triggerbox-gab#branch=master")
 
 package() {
   cd $srcdir
