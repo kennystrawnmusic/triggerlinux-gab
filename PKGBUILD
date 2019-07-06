@@ -1,0 +1,18 @@
+pkgname=jak-social-gab
+pkgver=1.0
+pkgrel=1
+pkgdesc="Gab Free Speech Social Network"
+arch=('x86_64')
+url="https://gab.com"
+license=('GPL')
+depends=('jade-application-kit-git')
+source=("https://github.com/realKennyStrawn93/triggerbox-gab")
+
+package() {
+  cd $srcdir
+  mkdir -p $pkgdir/usr/bin
+  mkdir -p $pkgdir/usr/share/applications
+  cp $srcdir/gab.desktop $pkgdir/usr/share/applications
+  cp $srcdir/gab $pkgdir/usr/bin
+  cp $srcdir/gab-wrapper $pkgdir/usr/bin
+}
