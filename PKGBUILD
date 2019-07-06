@@ -1,4 +1,4 @@
-pkgname=jak-social-gab
+pkgname=triggerbox-gab
 pkgver=1.0
 pkgrel=1
 pkgdesc="Gab Free Speech Social Network"
