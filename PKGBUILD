@@ -12,7 +12,7 @@ package() {
   cd $srcdir
   mkdir -p $pkgdir/usr/bin
   mkdir -p $pkgdir/usr/share/applications
-  cp $srcdir/gab.desktop $pkgdir/usr/share/applications
-  cp $srcdir/gab $pkgdir/usr/bin
-  cp $srcdir/gab-wrapper $pkgdir/usr/bin
+  cp $srcdir/$pkgname/gab.desktop $pkgdir/usr/share/applications
+  cp $srcdir/$pkgname/gab $pkgdir/usr/bin
+  cp $srcdir/$pkgname/gab-wrapper $pkgdir/usr/bin
 }
