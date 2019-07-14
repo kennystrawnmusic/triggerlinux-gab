@@ -1,4 +1,4 @@
-pkgname=triggerbox-gab
+pkgname=triggerlinux-gab
 pkgver=1.1
 pkgrel=1
 pkgdesc="Gab Free Speech Social Network"
@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://gab.com"
 license=('GPL')
 depends=('jade-application-kit-git')
-source=("git+https://github.com/realKennyStrawn93/triggerbox-gab#branch=master")
+source=("git+https://github.com/realKennyStrawn93/triggerlinux-gab#branch=master")
 
 package() {
   cd $srcdir
